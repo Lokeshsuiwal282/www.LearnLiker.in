@@ -10,12 +10,14 @@
 
   <!-- Favicons -->
   <link href="learnlinker_logo.jpg" rel="icon">
-  <!-- <link href="logos.jpg" rel="apple-touch-icon"> -->
+  <link href="learnlinker_logo.jpg" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,57 +29,69 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-<style>
-  #spinner {
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .5s ease-out, visibility 0s linear .5s;
-  z-index: 99999;
-  }
-  .bg-white {
-    background-color: #fff !important;
-  }
-  .align-items-center {
-    align-items: center !important;
-  }
-  .justify-content-center {
-    justify-content: center !important;
-  }
-  .vh-100 {
-    height: 100vh !important;
-  }
-  .w-100 {
-    width: 100% !important;
-  }
-  .translate-middle {
-    transform: translate(-50%, -50%) !important;
-  }
-  .start-50 {
-    left: 50% !important;
-  }
-  .top-50 {
-    top: 50% !important;
-  }
-  .position-fixed {
-    position: fixed !important;
-  }
-  .d-flex {
-    display: flex !important;
-  }
-  .spinner {
-  width: 40px;
-  height: 40px;
-  background: #06A3DA;
-  margin: 100px auto;
-  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
-  animation: sk-rotateplane 1.2s infinite ease-in-out;
-}
-</style>
+  <style>
+    #spinner {
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity .5s ease-out, visibility 0s linear .5s;
+      z-index: 99999;
+    }
+
+    .bg-white {
+      background-color: #fff !important;
+    }
+
+    .align-items-center {
+      align-items: center !important;
+    }
+
+    .justify-content-center {
+      justify-content: center !important;
+    }
+
+    .vh-100 {
+      height: 100vh !important;
+    }
+
+    .w-100 {
+      width: 100% !important;
+    }
+
+    .translate-middle {
+      transform: translate(-50%, -50%) !important;
+    }
+
+    .start-50 {
+      left: 50% !important;
+    }
+
+    .top-50 {
+      top: 50% !important;
+    }
+
+    .position-fixed {
+      position: fixed !important;
+    }
+
+    .d-flex {
+      display: flex !important;
+    }
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      background: #06A3DA;
+      margin: 100px auto;
+      -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+      animation: sk-rotateplane 1.2s infinite ease-in-out;
+    }
+  </style>
 </head>
 
 <body class="index-page">
   <!-- Spinner Start -->
-  <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
     <div class="spinner"></div>
   </div>
   <!-- Spinner End -->
@@ -95,23 +109,23 @@
           <li><a href="#home" class="active">Home<br></a></li>
           <li class="dropdown">
             <a href="#" class="dropbtn">Company <i class="fa-solid fa-chevron-down"></i></a>
-              <ul class="dropdown-content">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="blog.html">Blog</a></li>
-              </ul>
+            <ul class="dropdown-content">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#">Career</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
           </li>
           <li class="dropdown">
-            <a href="#services"  class="dropbtn">Services <i class="fa-solid fa-chevron-down"></i></a>
-              <ul class="dropdown-content">
-                <li><a href="#">Web Development</a></li>
-                <li><a href="#">Data Science</a></li>
-                <li><a href="#">Designing Service</a></li>
-                <li><a href="#">Mobile App Development</a></li>
-                <li><a href="#">Cloud Computing</a></li>
-                <li><a href="#">Digital Marketing</a></li>
-                <li><a href="#">Content Writing</a></li>
-              </ul>
+            <a href="#services" class="dropbtn">Services <i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown-content">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Data Science</a></li>
+              <li><a href="#">Designing Service</a></li>
+              <li><a href="#">Mobile App Development</a></li>
+              <li><a href="#">Cloud Computing</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Content Writing</a></li>
+            </ul>
           </li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#team">Team</a></li>
@@ -131,17 +145,21 @@
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
             <h2 data-aos="fade-up" class="BharatExamHub_h2">LearnLinker</h2>
             <h1 data-aos="fade-up">Bridging Innovation with Education</h1>
-            <p data-aos="fade-up" data-aos-delay="100">At LearnLinker, we strive to provide insights, guidance, and resources that empower professionals and enthusiasts in the world of data science and AI. It’s always rewarding to hear feedback from industry leaders who believe in our vision.</p>
-              <h4 data-aos="fade-up" class="BharatExamHub_h2">SPECIALISATION IN</h4>
-                        <ul data-aos="fade-up" style="list-style-type: none;">
-                            <li><i class="bi bi-chevron-right"></i> Data Science</li>
-                            <li><i class="bi bi-chevron-right"></i> Web Development</li>
-                            <li><i class="bi bi-chevron-right"></i> Data Analytics</li>
-                            <li><i class="bi bi-chevron-right"></i> Content Writing</li>
-                        </ul>
+            <p data-aos="fade-up" data-aos-delay="100">At LearnLinker, we strive to provide insights, guidance, and
+              resources that empower professionals and enthusiasts in the world of data science and AI. It’s always
+              rewarding to hear feedback from industry leaders who believe in our vision.</p>
+            <h4 data-aos="fade-up" class="BharatExamHub_h2">SPECIALISATION IN</h4>
+            <ul data-aos="fade-up" style="list-style-type: none;">
+              <li><i class="bi bi-chevron-right"></i> Data Science</li>
+              <li><i class="bi bi-chevron-right"></i> Web Development</li>
+              <li><i class="bi bi-chevron-right"></i> Data Analytics</li>
+              <li><i class="bi bi-chevron-right"></i> Content Writing</li>
+            </ul>
             <div class="d-flex flex-column flex-md-row" data-aos="fade-up" data-aos-delay="200">
               <a href="#contact" class="btn-get-started">More View<i class="bi bi-arrow-right"></i></a>
-              <a href="#" class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              <a href="#"
+                class="glightbox btn-watch-video d-flex align-items-center justify-content-center ms-0 ms-md-4 mt-4 mt-md-0"><i
+                  class="bi bi-play-circle"></i><span>Watch Video</span></a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out">
@@ -153,61 +171,65 @@
     </section>
     <!-- /Hero Section -->
 
-        <!-- Stats Section -->
-        <section id="stats" class="stats section">
-          <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <div class="row gy-4">
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
 
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-                    <span>+ Years</span>
-                    <p>Industrial Experience</p>
-                  </div>
-                </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <span>+ Years</span>
+                <p>Industrial Experience</p>
               </div>
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-bar-chart-fill color-pink flex-shrink-0" style="color: #bb0852;"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>
-                    <span>% client</span>
-                    <p>Retebtion Rete</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Stats Item -->
-    
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-ubuntu color-orange flex-shrink-0" style="color: #ee6c20;"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-                    <span>+</span>
-                    <p>Connected Clients</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Stats Item -->
-    
-              <div class="col-lg-3 col-md-6">
-                <div class="stats-item d-flex align-items-center w-100 h-100">
-                  <i class="bi bi-headset color-green flex-shrink-0" style="color: #15be56;"></i>
-                  <div>
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Used for Software</p>
-                  </div>
-                </div>
-              </div><!-- End Stats Item -->
-    
             </div>
-    
           </div>
-    
-        </section>
-        <!-- /Stats Section -->
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-bar-chart-fill color-pink flex-shrink-0" style="color: #bb0852;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <span>% client</span>
+                <p>Retebtion Rete</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-ubuntu color-orange flex-shrink-0" style="color: #ee6c20;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <span>+</span>
+                <p>Connected Clients</p>
+              </div>
+            </div>
+          </div>
+          <!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item d-flex align-items-center w-100 h-100">
+              <i class="bi bi-headset color-green flex-shrink-0" style="color: #15be56;"></i>
+              <div>
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                  class="purecounter"></span>
+                <p>Used for Software</p>
+              </div>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Stats Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
@@ -216,13 +238,20 @@
           <div class="col-lg-12 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
             <div class="content">
               <h3>About LearnLinker</h3>
-              <h2>At LearnLinker, we strive to provide insights, guidance, and resources that empower professionals and enthusiasts in the world of data science and AI. It’s always rewarding to hear feedback from industry leaders who believe in our vision.</h2>
-              <p>At LearnLinker, we’re not just a platform; we’re a growing community of data and tech enthusiasts. From cutting-edge software development and data analytics to personalized education, we are here to innovate, inspire, and empower.
-                  <br><br>
-                💡 Explore our blogs, discover the latest tools and trends, and join us in building the future of technology.<br>
-                👉 Let’s grow, learn, and innovate together!</p>
+              <h2>At LearnLinker, we strive to provide insights, guidance, and resources that empower professionals and
+                enthusiasts in the world of data science and AI. It’s always rewarding to hear feedback from industry
+                leaders who believe in our vision.</h2>
+              <p>At LearnLinker, we’re not just a platform; we’re a growing community of data and tech enthusiasts. From
+                cutting-edge software development and data analytics to personalized education, we are here to innovate,
+                inspire, and empower.
+                <br><br>
+                💡 Explore our blogs, discover the latest tools and trends, and join us in building the future of
+                technology.<br>
+                👉 Let’s grow, learn, and innovate together!
+              </p>
               <div class="text-center text-lg-start">
-                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                <a href="#"
+                  class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
                   <span>Read More</span>
                   <i class="bi bi-arrow-right"></i>
                 </a>
@@ -254,9 +283,9 @@
             <div class="service-item item-cyan position-relative">
               <i class="bi bi-activity icon"></i>
               <h3>Web Development</h3>
-              <p>At the crucial time that human beings are actively exploring the web, your business would be losing out on a lot
-                of attainable customers, if you weren’t online. We are here to sketch expert websites with an ideal coloring
-                scheme and mixture of snap shots with content material that effectively construct your brand online.</p>
+              <p>At the crucial time that human beings are actively exploring the web, your business would be losing out
+                on a lot
+                of attainable customers, if you weren’t online.</p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -265,7 +294,8 @@
             <div class="service-item item-orange position-relative">
               <i class="bi bi-bar-chart-line-fill icon"></i>
               <h3>Data Analytics</h3>
-              <p>Provides real-time data on student performance, exam progress, and proctoring alerts. Administrators can track student activities during the exam and view reports instantly after the exam ends.</p>
+              <p>Provides real-time data on student performance, exam progress, and proctoring alerts. Administrators
+                can track student activities during the exam and view reports instantly after the exam ends.</p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -274,7 +304,9 @@
             <div class="service-item item-teal position-relative">
               <i class="bi bi-easel icon"></i>
               <h3>Automated Apps Creation</h3>
-              <p>Allows institutions to quickly set up exams by uploading questions or importing from question banks. The system automatically randomizes questions, sets timers, and configures settings to prevent cheating.</p>
+              <p>Allows institutions to quickly set up exams by uploading questions or importing from question banks.
+                The system automatically randomizes questions, sets timers, and configures settings to prevent cheating.
+              </p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -283,7 +315,8 @@
             <div class="service-item item-red position-relative">
               <i class="bi bi-bounding-box-circles icon"></i>
               <h3>End-to-End Data Encryption</h3>
-              <p>Ensures that all data—such as question papers, student answers, and exam logs—are securely stored using encrypted technologies, keeping sensitive information safe from unauthorized access.</p>
+              <p>Ensures that all data—such as question papers, student answers, and exam logs—are securely stored using
+                encrypted technologies, keeping sensitive information safe from unauthorized access.</p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -292,7 +325,8 @@
             <div class="service-item item-indigo position-relative">
               <i class="bi bi-calendar4-week icon"></i>
               <h3>Digital Marketing</h3>
-              <p>Integrate the online exam system with other platforms like Learning Management Systems (LMS) or student information systems using APIs, enabling smooth data exchange and consolidated management.</p>
+              <p>Integrate the online exam system with other platforms like Learning Management Systems (LMS) or student
+                information systems using APIs, enabling smooth data exchange and consolidated management.</p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -301,7 +335,9 @@
             <div class="service-item item-pink position-relative">
               <i class="bi bi-chat-square-text icon"></i>
               <h3>Content Writing</h3>
-              <p>Automatically calculates scores immediately after the exam, providing instant feedback to students and generating detailed performance reports for instructors. This reduces the time spent on manual grading and minimizes errors.</p>
+              <p>Automatically calculates scores immediately after the exam, providing instant feedback to students and
+                generating detailed performance reports for instructors. This reduces the time spent on manual grading
+                and minimizes errors.</p>
               <a href="#" class="read-more stretched-link"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
@@ -326,7 +362,8 @@
             <div class="card">
               <img src="assets/img/values-1.png" class="img-fluid" alt="">
               <h3>Security, Reliability, User Experience.</h3>
-              <p>At BharatExamHub, we prioritize security, reliability, and user experience to ensure a trustworthy and seamless online examination process for all users.</p>
+              <p>At BharatExamHub, we prioritize security, reliability, and user experience to ensure a trustworthy and
+                seamless online examination process for all users.</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -334,7 +371,8 @@
             <div class="card">
               <img src="assets/img/values-2.png" class="img-fluid" alt="">
               <h3>Create Exams, Manage Security, Control Student Panel.</h3>
-              <p>Admins create exams, activate all functions, manage security, calculate results, and control the student panel..</p>
+              <p>Admins create exams, activate all functions, manage security, calculate results, and control the
+                student panel..</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -342,7 +380,8 @@
             <div class="card">
               <img src="assets/img/values-3.png" class="img-fluid" alt="">
               <h3>Exam Integrity, Seamless Experience, Real-time Analytics.</h3>
-              <p>Students complete exams without issues, while admins enjoy real-time analytics and error-free dashboards.</p>
+              <p>Students complete exams without issues, while admins enjoy real-time analytics and error-free
+                dashboards.</p>
             </div>
           </div><!-- End Card Item -->
 
@@ -365,7 +404,7 @@
           <!-- <div class="col-xl-6" data-aos="zoom-out" data-aos-delay="100">
             <img src="assets/img/features.png" class="img-fluid" alt="">
           </div> -->
-           <!-- Start Feature Item -->
+          <!-- Start Feature Item -->
           <div class="col-xl-6 d-flex">
             <div class="row align-self-center gy-4">
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
@@ -374,21 +413,21 @@
                   <h3>Generate Student's Credibility Reports</h3>
                 </div>
               </div>
-              
+
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
                   <h3>Monitor And Manage Evaluation Process</h3>
                 </div>
               </div>
-              
+
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
                   <h3>Declare Results Online</h3>
                 </div>
               </div>
-        
+
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
@@ -424,21 +463,21 @@
                   <h3>Create And Schedule Exams</h3>
                 </div>
               </div>
-              
+
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
                   <h3>Conduct Exams Digitally</h3>
                 </div>
               </div>
-              
+
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                 <div class="feature-box d-flex align-items-center">
                   <i class="bi bi-check"></i>
                   <h3>Assign Answer-Sheets To Evaluators</h3>
                 </div>
               </div>
-        
+
 
               <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
                 <div class="feature-box d-flex align-items-center">
@@ -476,59 +515,66 @@
       <div class="container">
         <div class="row gy-5" data-aos="fade-up" data-aos-delay="200">
 
-            <div class="row align-self-center gy-5">
+          <div class="row align-self-center gy-5">
 
-              <div class="col-md-6 icon-box">
-                <i class="bi bi-backpack2-fill"></i>
-                <div>
-                  <h4>STUDENT AUTHENTICATION AND APPROVAL</h4>
-                  <p>Physical Approvers eliminate any risk of impersonation using a Two-Factor authentication process.</p>
-                </div>
-              </div><!-- End Feature Item -->
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-backpack2-fill"></i>
+              <div>
+                <h4>STUDENT AUTHENTICATION AND APPROVAL</h4>
+                <p>Physical Approvers eliminate any risk of impersonation using a Two-Factor authentication process.</p>
+              </div>
+            </div><!-- End Feature Item -->
 
-              <div class="col-md-6 icon-box">
-                <i class="bi bi-laptop-fill"></i>
-                <div>
-                  <h4>ADVANCED REMOTE PROCTORING TOOLS</h4>
-                  <p>Physical Remote Proctors monitor and manage the sanctity of assessments using the BharatExamHub Advanced Remote Proctoring Suite with services such as Face Tracking, Desktop Control, 360 Degree Scan, Audio and Candidate Proxy Check.</p>
-                </div>
-              </div><!-- End Feature Item -->
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-laptop-fill"></i>
+              <div>
+                <h4>ADVANCED REMOTE PROCTORING TOOLS</h4>
+                <p>Physical Remote Proctors monitor and manage the sanctity of assessments using the BharatExamHub
+                  Advanced Remote Proctoring Suite with services such as Face Tracking, Desktop Control, 360 Degree
+                  Scan, Audio and Candidate Proxy Check.</p>
+              </div>
+            </div><!-- End Feature Item -->
 
-              <div class="col-md-6 icon-box">
-                <i class="bi bi-pc-display-horizontal"></i>
-                <div>
-                  <h4>ARTIFICIAL INTELLIGENCE (AI) SERVICES</h4>
-                  <p>BharatExamHub uses Microsoft Cognitive AI Services for Face Recognition and Object Identification, and has its own in-house AI Services such as Face Tracking and Voice Tracking.</p>
-                </div>
-              </div><!-- End Feature Item -->
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-pc-display-horizontal"></i>
+              <div>
+                <h4>ARTIFICIAL INTELLIGENCE (AI) SERVICES</h4>
+                <p>BharatExamHub uses Microsoft Cognitive AI Services for Face Recognition and Object Identification,
+                  and has its own in-house AI Services such as Face Tracking and Voice Tracking.</p>
+              </div>
+            </div><!-- End Feature Item -->
 
-              <div class="col-md-6 icon-box">
-                <i class="bi bi-arrow-repeat"></i>
-                <div>
-                  <h4>360 DEGREE ROOM SCAN</h4>
-                  <p>The BharatExamHub Room Scan enables remote proctoring through a complete 360 degree view of candidates' premises to scan for any sort of malpractice.</p>
-                </div>
-              </div><!-- End Feature Item -->
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-arrow-repeat"></i>
+              <div>
+                <h4>360 DEGREE ROOM SCAN</h4>
+                <p>The BharatExamHub Room Scan enables remote proctoring through a complete 360 degree view of
+                  candidates' premises to scan for any sort of malpractice.</p>
+              </div>
+            </div><!-- End Feature Item -->
 
-              <div class="col-md-6 icon-box">
-                <i class="bi bi-volume-up"></i>
-                <div>
-                  <h4>NOISE DETECTION USING AI SERVICES</h4>
-                  <p>The BharatExamHub AI helps detect noise and sends out alerts to candidates and proctors regarding the noise detected.</p>
-                </div>
-              </div><!-- End Feature Item -->
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-volume-up"></i>
+              <div>
+                <h4>NOISE DETECTION USING AI SERVICES</h4>
+                <p>The BharatExamHub AI helps detect noise and sends out alerts to candidates and proctors regarding the
+                  noise detected.</p>
+              </div>
+            </div><!-- End Feature Item -->
 
-              <div class="col-md-6 icon-box">
-                <i class="bi bi-database-fill-lock"></i>
-                <div>
-                  <h4>DATA SECURITY AND STORAGE OF RECORDS</h4>
-                  <p>The BharatExamHub Remote Proctoring Services offer end-to-end encrypted data security, which includes images, question banks, results, and logs that are created during assessments. The data help institutions respond to RTI in relation with candidates' privacy issues.</p>
-                </div>
-              </div><!-- End Feature Item -->
-
-            </div>
+            <div class="col-md-6 icon-box">
+              <i class="bi bi-database-fill-lock"></i>
+              <div>
+                <h4>DATA SECURITY AND STORAGE OF RECORDS</h4>
+                <p>The BharatExamHub Remote Proctoring Services offer end-to-end encrypted data security, which includes
+                  images, question banks, results, and logs that are created during assessments. The data help
+                  institutions respond to RTI in relation with candidates' privacy issues.</p>
+              </div>
+            </div><!-- End Feature Item -->
 
           </div>
+
+        </div>
       </div>
 
     </section><!-- /Alt Features Section -->
@@ -645,7 +691,9 @@
               <div class="faq-item faq-active">
                 <h3>What is an online examination system?</h3>
                 <div class="faq-content">
-                  <p>An online examination system is a digital platform designed to create, administer, and evaluate exams online. It allows institutions to conduct exams remotely with features like automated grading, AI proctoring, and real-time monitoring.</p>
+                  <p>An online examination system is a digital platform designed to create, administer, and evaluate
+                    exams online. It allows institutions to conduct exams remotely with features like automated grading,
+                    AI proctoring, and real-time monitoring.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -653,7 +701,9 @@
               <div class="faq-item">
                 <h3>How secure is an online examination system?</h3>
                 <div class="faq-content">
-                  <p>Online examination systems are built with robust security features, including end-to-end encryption, AI-based proctoring (face and voice recognition, behavior tracking), and multi-factor authentication to prevent cheating and unauthorized access.</p>
+                  <p>Online examination systems are built with robust security features, including end-to-end
+                    encryption, AI-based proctoring (face and voice recognition, behavior tracking), and multi-factor
+                    authentication to prevent cheating and unauthorized access.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -661,7 +711,9 @@
               <div class="faq-item">
                 <h3>How does AI proctoring work in online exams?</h3>
                 <div class="faq-content">
-                  <p>AI proctoring uses advanced algorithms to monitor student behavior during the exam. It detects suspicious activities like unusual eye movements, background noise, and unauthorized objects in the room, helping to prevent cheating without the need for human proctors.</p>
+                  <p>AI proctoring uses advanced algorithms to monitor student behavior during the exam. It detects
+                    suspicious activities like unusual eye movements, background noise, and unauthorized objects in the
+                    room, helping to prevent cheating without the need for human proctors.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -677,7 +729,9 @@
               <div class="faq-item">
                 <h3>Can online exams accommodate both objective and subjective questions?</h3>
                 <div class="faq-content">
-                  <p>Yes, most online exam systems support both objective (MCQs, true/false) and subjective (essay, long-form answers) question types, making them suitable for a wide range of assessments, including academic, corporate, and psychometric exams.</p>
+                  <p>Yes, most online exam systems support both objective (MCQs, true/false) and subjective (essay,
+                    long-form answers) question types, making them suitable for a wide range of assessments, including
+                    academic, corporate, and psychometric exams.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -685,7 +739,9 @@
               <div class="faq-item">
                 <h3>What are the benefits of using an online examination system?</h3>
                 <div class="faq-content">
-                  <p>The benefits include greater flexibility, scalability, reduced administrative burden, faster result processing, enhanced security with AI proctoring, and the ability to conduct exams from any location, ensuring accessibility for a larger number of candidates.</p>
+                  <p>The benefits include greater flexibility, scalability, reduced administrative burden, faster result
+                    processing, enhanced security with AI proctoring, and the ability to conduct exams from any
+                    location, ensuring accessibility for a larger number of candidates.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -693,12 +749,18 @@
               <div class="faq-item">
                 <h3>How do I use an online exam system?</h3>
                 <div class="faq-content">
-                  <p>1. Register or Sign In: Create an account on the online exam platform or sign in with existing credentials.<br>
-                     2. Set Up the Exam: For admins, configure the exam by choosing the question type (objective/subjective), setting time limits, and uploading questions.<br>
-                     3. Schedule the Exam: Select the date and time for the exam, and assign it to the relevant student batch.<br>
-                     4. Student Authentication: Ensure students go through the authentication process (e.g., two-factor authentication or ID verification).<br>
-                     5. Conduct the Exam: Monitor the exam using AI proctoring tools or live proctors to maintain exam integrity.<br>
-                     6. Review Results: After the exam, the system will automatically generate results, which admins can review and students can access.</p>
+                  <p>1. Register or Sign In: Create an account on the online exam platform or sign in with existing
+                    credentials.<br>
+                    2. Set Up the Exam: For admins, configure the exam by choosing the question type
+                    (objective/subjective), setting time limits, and uploading questions.<br>
+                    3. Schedule the Exam: Select the date and time for the exam, and assign it to the relevant student
+                    batch.<br>
+                    4. Student Authentication: Ensure students go through the authentication process (e.g., two-factor
+                    authentication or ID verification).<br>
+                    5. Conduct the Exam: Monitor the exam using AI proctoring tools or live proctors to maintain exam
+                    integrity.<br>
+                    6. Review Results: After the exam, the system will automatically generate results, which admins can
+                    review and students can access.</p>
                 </div>
                 <i class="faq-toggle bi bi-chevron-right"></i>
               </div><!-- End Faq item-->
@@ -713,7 +775,7 @@
 
     </section><!-- /Faq Section -->
 
-<!-- ============================ Techinology Section Starts =========================== -->
+    <!-- ============================ Techinology Section Starts =========================== -->
     <section id="portfolio" class="portfolio section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
@@ -721,7 +783,9 @@
         <p>We Work with Technologies</p>
       </div>
       <div class="container" data-aos="fade-up">
-        <p>Our team collaborates with a broad spectrum of business professionals, focusing on the development of unique web and mobile applications. With our extensive technology proficiency, we expertly cater to the needs of our esteemed clients.</p>
+        <p>Our team collaborates with a broad spectrum of business professionals, focusing on the development of unique
+          web and mobile applications. With our extensive technology proficiency, we expertly cater to the needs of our
+          esteemed clients.</p>
       </div>
       <div class="container">
         <div class="isotope-layout" data-default-filter=".filter-app" data-layout="masonry" data-sort="original-order">
@@ -731,7 +795,7 @@
             <li data-filter=".filter-branding">Data Analytics</li>
             <li data-filter=".filter-books">DataBase</li>
             <!-- <li data-filter="*">All</li> -->
-           <div class="technology-lineborder"></div>
+            <div class="technology-lineborder"></div>
 
           </ul>
           <!-- End Portfolio Filters -->
@@ -835,7 +899,7 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-            
+
             <div class="col-lg-1  portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets\img\technology\java.png" class="img-fluid" alt="">
@@ -880,7 +944,7 @@
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
-            
+
             <div class="col-lg-1  portfolio-item isotope-item filter-books">
               <div class="portfolio-content h-100">
                 <img src="assets\img\technology\firebase.png" class="img-fluid" alt="">
@@ -921,7 +985,7 @@
         </div>
       </div>
     </section>
-<!-- ============================ End Techinology Section Starts =========================== -->
+    <!-- ============================ End Techinology Section Starts =========================== -->
 
     <!-- Team Section -->
     <section id="team" class="team section">
@@ -934,11 +998,10 @@
 
       <div class="container">
         <div class="row gy-4">
-
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.png" class="img-fluid" alt="">
+                <img src="assets\img\team\team-1.JPG" class="img-fluid" alt="">
                 <div class="social">
                   <a href="https://www.linkedin.com/in/lokesh-india/"><i class="bi bi-linkedin"></i></a>
                   <a href="https://x.com/Lokeshsuiwal282"><i class="bi bi-twitter-x"></i></a>
@@ -950,7 +1013,7 @@
               <div class="member-info">
                 <h4>Lokesh Kumar Saini</h4>
                 <span>Web Development</span>
-                <p>I am ready to start my career as a software developer and aim to apply my academic excellence and programming skills.</p>
+                <p>I am ready to start my career as a Web developer and aim to apply my academic excellence and programming skills.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -970,7 +1033,7 @@
               <div class="member-info">
                 <h4>Tanishq Soni</h4>
                 <span>Data Science</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <p> I am passionate about leveraging data to drive insights and impact. Explore my work, skills, and projects to learn more about my journey in data science and analysis.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -989,8 +1052,8 @@
               <!-- <p>Co-Founder</p> -->
               <div class="member-info">
                 <h4>Pratab Singh</h4>
-                <span>Web Developer</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <span>BackEnd Developer</span>
+                <p>My journey in the tech world has been exhilarating, with a focus on Python, machine learning, deep learning, and web development.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -1010,7 +1073,7 @@
               <div class="member-info">
                 <h4>Gaurav Bohra</h4>
                 <span>Data Engineer</span>
-                <p>Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+                <p>My experience includes hands-on work with machine learning techniques like Linear Regression, Logistic Regression, Random Forest, and K-means.</p>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -1137,7 +1200,8 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -1177,7 +1241,6 @@
   </main>
 
   <footer id="footer" class="footer">
-
     <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center text-center">
@@ -1185,7 +1248,8 @@
             <h4>Join Our Newsletter</h4>
             <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
             <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe">
+              </div>
               <div class="loading">Loading</div>
               <div class="error-message"></div>
               <div class="sent-message">Your subscription request has been sent. Thank you!</div>
@@ -1237,7 +1301,7 @@
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.linkedin.com/company/learnlinker/posts/?feedView=all"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
 
@@ -1245,7 +1309,8 @@
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">LearnLinker</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">LearnLinker</strong> <span>All Rights Reserved</span>
+      </p>
       <div class="credits">
         Designed by <a href="http://jdsoftdeveloper.kesug.com">JD Developer</a>
       </div>
@@ -1254,7 +1319,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
