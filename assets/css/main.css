@@ -1,28 +1,19 @@
 
-:root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Nunito",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
-}
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #012970; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #4154f1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
-}
-
-/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
-:root {
-  --nav-color: #012970;  /* The default color of the main navmenu links */
-  --nav-hover-color: #4154f1; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #4154f1; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --background-color: #ffffff; 
+  --default-color: #444444;
+  --heading-color: #012970;
+  --accent-color: #4154f1; 
+  --surface-color: #ffffff; 
+  --contrast-color: #ffffff;
+  --nav-color: #012970;  /* The default cs */
+  --nav-hover-color: #4154f1;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff; 
+  --nav-dropdown-color: #212529;
+  --nav-dropdown-hover-color: #4154f1;
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -44,15 +35,86 @@
 :root {
   scroll-behavior: smooth;
 }
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
 
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
-body {
+/* body {
   color: var(--default-color);
   background-color: var(--background-color);
-  font-family: var(--default-font);
-}
+} */
 
 a {
   color: var(--accent-color);
@@ -165,7 +227,12 @@ h6 {
   transition: 0.3s;
   font-weight: 500;
 }
-
+.header li button {
+  border: none !important;
+}
+.header .drakmodeicon {
+  display: none;
+}
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
@@ -183,6 +250,13 @@ h6 {
     padding: 6px 15px;
   }
 
+  .header .drakmodebutton {
+    margin: 10px 20px;
+  }
+  .header .drakmodebutton a i {
+    display: flex;
+    float: right;
+  }
   .header .navmenu {
     order: 3;
   }
@@ -229,9 +303,9 @@ h6 {
   .navmenu a:focus {
     color: var(--nav-color);
     padding: 18px 12px;
-    font-size: 15px;
+    font-size: 21px;
     font-family: var(--nav-font);
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -358,7 +432,21 @@ h6 {
     transition: 0.3s;
   }
 
-  .navmenu a i,
+  .navmenu .drakmodeicon {
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+  }
+  .navmenu a i, .navmenu button i,
   .navmenu a:focus i {
     font-size: 12px;
     line-height: 0;
@@ -437,6 +525,7 @@ h6 {
 
   .mobile-nav-active .navmenu>ul {
     display: block;
+    background: #fff;
   }
 }
 
@@ -2055,10 +2144,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
-
 /*--------------------------------------------------------------
 # Blog Posts Section
 --------------------------------------------------------------*/
